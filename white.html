@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>White</title>
+    <style>
+        body {
+            background: #000;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        #section {
+            padding-top: 5vh;
+            display: flex;
+            width: 100vw;
+            height: 100vh;
+            align-items: center;
+            justify-content: center;
+            gap: 2rem;
+        }
+        #left {
+            width: 35%;
+            height: 100%;
+            /*background: #838383; */
+        }
+        #right {
+            width: 35%;
+            height: 100%;
+            /*background: #555555; */
+        }
+        .box {
+            width: 100%;
+            height: auto;
+            margin-bottom: 2rem;
+            color: white;
+        }
+        .elem {
+            width: 100%;
+            height: auto;
+            display: block;
+            margin-bottom: .5rem;
+        }
+        .elem:hover {
+            opacity: 0.7;
+        }
+        span {
+            color: rgb(255, 255, 0);
+        }
+    </style>
+    <!-- <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        #section {
+            padding-top: 5vh;
+            display: flex;
+            width: 100vw;
+            height: 100vh;
+            align-items: center;
+            justify-content: center;
+            gap: 2rem;
+            font-family: Arial,  sans-serif;
+        }
+        #left, #right {
+            width: 40%;
+            height: 100%;
+            /*background: #838383; */
+        }
+        .elem {
+            width: 100%;
+            height: auto;
+            display: block;
+            margin-bottom: 2rem;
+        }
+        .elem img {
+            width: 40px;
+            height: 40px;
+            object-fit: cover;
+            margin-bottom: 1rem;
+        }
+        .elem h4 {
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+        }
+        .elem p {
+            font-size: 1rem;
+            line-height: 1.4rem;
+            color: #555;
+            word-spacing: 2px;
+        }
+        .imgdiv {
+            margin-top: 20vh;
+            width: 75%;
+            height: 75vh;
+            background: url('https://preview.colorlib.com/theme/space/images/about_pic.jpg');
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+        }
+        .pink {
+            width: 250px;
+            height: 100px;
+            background: #E62E61;
+            padding: 1.5rem;
+            color: white;
+        }
+    </style> -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css" rel="stylesheet"/>
+</head>
+<body>
+    <div id="section">
+        <div id="left">
+            <div class="box">
+                <img src="https://preview.colorlib.com/theme/space/images/img_1.jpg" alt="" class="elem">
+                <h3>Image 1</h3>
+                <p>Lorem ipsum <span>dolor</span> sit amet, <span>consectetur</span> adipisicing.</p>
+            </div>
+            <img src="https://preview.colorlib.com/theme/space/images/img_4.jpg" alt="" class="elem">
+            <img src="https://preview.colorlib.com/theme/space/images/img_6.jpg" alt="" class="elem">
+            <img src="https://preview.colorlib.com/theme/space/images/img_8.jpg" alt="" class="elem">
+            <img src="https://preview.colorlib.com/theme/space/images/img_10.jpg" alt="" class="elem">
+            <img src="https://preview.colorlib.com/theme/space/images/img_12.jpg" alt="" class="elem">
+        </div>
+        <div id="right">
+            <img src="https://preview.colorlib.com/theme/space/images/img_2.jpg" alt="" class="elem">
+            <img src="https://preview.colorlib.com/theme/space/images/img_3.jpg" alt="" class="elem">
+            <img src="https://preview.colorlib.com/theme/space/images/img_5.jpg" alt="" class="elem">
+            <img src="https://preview.colorlib.com/theme/space/images/img_7.jpg" alt="" class="elem">
+            <img src="https://preview.colorlib.com/theme/space/images/img_9.jpg" alt="" class="elem">
+            <img src="https://preview.colorlib.com/theme/space/images/img_11.jpg" alt="" class="elem">
+        </div>
+    </div>
+    <!-- <div id="section">
+        <div id="left">
+            <div class="elem">
+                <img src="images/icon1.png" alt="">
+                <h4>Web Design</h4>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+            </div>
+            <div class="elem">
+                <img src="images/icon2.png" alt="">
+                <h4>Web Design</h4>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+            </div>
+            <div class="elem">
+                <img src="images/icon3.png" alt="">
+                <h4>Web Design</h4>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+            </div>
+        </div>
+        <div id="right">
+            <div class="elem">
+                <img src="images/icon4.png" alt="">
+                <h4>Web Design</h4>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+            </div>
+            <div class="elem">
+                <img src="images/icon5.png" alt="">
+                <h4>Web Design</h4>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+            </div>
+            <div class="elem">
+                <img src="images/icon6.png" alt="">
+                <h4>Web Design</h4>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+            </div>
+        </div>
+    </div>
+    <div class="imgdiv">
+        <div class="pink">
+            <h3>12 Years of experience</h3>
+            <p><i class="ri-arrow-right-line"></i> See portfolio </p>
+            <p><i class="ri-arrow-right-line"></i> Download my CV</p>
+        </div>
+    </div> -->
+</body>
+</html>
